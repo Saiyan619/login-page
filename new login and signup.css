@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 15px;
+    font-weight: 300;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+svg {
+		position: absolute;
+		top: 0;
+		left: 0;
+    width: 100%;
+    height: 100%;
+		box-sizing: border-box;
+		display: block;
+		background-color: #0e4166;
+    background-image: linear-gradient(to bottom, rgba(14, 65, 102, 0.86), #0e4166);
+    
+    z-index: -10000;
+   
+	}
+
+
+.login-space{
+    background-color: white;
+    width: 300px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    padding: 10px 20px 10px;
+    border-radius: 5px;
+}
+
+.avatar{
+    width: 90px;
+    border-radius: 500px;
+    position: relative;
+    
+   
+}
+
+.content{
+    position: relative;
+    top: 5%;
+}
+
+.content h1{
+    margin-bottom: 30px;
+    text-transform: capitalize;
+}
+
+.username{
+    display: flex;
+    background-color: #d3d4d7;
+    padding: 5px 0px 5px;;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    
+}
+
+.username p{
+    padding: 10px;
+}
+.username input{
+    border: none;
+    background-color: transparent;
+    outline: none;
+    margin-bottom: 0px;
+    padding: 12px ;
+    width: 70%;
+    
+    
+}
+
+.email{
+     display: flex;
+    background-color: #d3d4d7;
+    padding: 5px 0px 5px;;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    display: none;
+    transition: display 1s;
+}
+
+.email p{
+     padding: 10px;
+}
+.email input{
+    border: none;
+    background-color: transparent;
+    outline: none;
+    margin-bottom: 0px;
+    padding: 12px ;
+    width: 70%;
+    
+    
+}
+
+button{
+    padding: 10px 50px;
+    border-radius: 100px;
+    background-color: #143aa2;
+    color: white;
+    border: none;
+    font-size: 17px;  
+    margin-top: 10px; 
+}
+button:hover{
+    padding: 10px 50px;
+    border-radius: 100px;
+    background-color: #1d51de;
+    color: white;
+    border: none;
+    font-size: 17px;   
+}
+
+.other-info{
+    margin-top: 10px;
+}
+
+.other-info p{
+    font-size: 12px;
+    
+}
+.other-info a{
+    text-decoration: none;
+}
+
+
+.gender{
+    width: 30px;
+    margin-top: 40px;
+    display: none;
+    
+}
+/* .disappear{
+   
+} */
+
+
+.checker{
+    font-size: 10px;
+    margin-top: -20px;
+    color: red;
+    text-align: left;
+    display: none;
+}
+.checker2{
+    font-size: 10px;
+    margin-top: -20px;
+    color: red;
+    text-align: left;
+    display: none;
+}
